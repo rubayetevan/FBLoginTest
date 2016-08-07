@@ -31,8 +31,8 @@ public class Main2Activity extends AppCompatActivity {
 
     public void logout(View view){
         LoginManager.getInstance().logOut();
-        Intent login = new Intent(Main2Activity.this, MainActivity.class);
-        startActivity(login);
+       /* Intent login = new Intent(Main2Activity.this, MainActivity.class);
+        startActivity(login);*/
         finish();
     }
 }
